@@ -1,11 +1,11 @@
-p = [True]*100
+p = [True]*82
 p[0] = False
 p[1] = False
 n = 2
 
 def hyou():
     s = ""
-    for i in range(100):
+    for i in range(82):
         if p[i] == True:
             s += "{:2d}, ".format(i)
         else:
